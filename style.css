@@ -58,7 +58,7 @@ color: #000000;
 }
 .billboard {
     height: 812px;
-    background-image: url(coffee_img.jpg);
+    background-image: url("coffee_img.jpg");
     background-size: 100% 100%;
 display: flex;
 flex-direction: column;
@@ -179,7 +179,7 @@ margin-left: 20px;
 .card_img1 {
     width: 325px;
     height: 216px;
-    background-image: url(card1.jpg);
+    background-image: url("card1.jpg");
     background-size: 100% 100%;
     margin:24px 20px;
 }
