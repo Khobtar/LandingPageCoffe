@@ -343,3 +343,92 @@ padding-top: 29px;
     color: #000000;
     text-decoration: none;
 }
+@media (max-width: 425px){
+    *{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+        .nav {
+            margin-left: 0;
+            margin-right: 0;
+            display: block;
+        }
+        .navbar {
+            width: 425px;
+        }
+        .navbar__list {
+            width: 425px;
+            display: flex;
+        list-style: none;
+        }
+        .navbar__list li {
+        margin-left: 5px;
+        }
+        .list_links {
+            margin-left: 30px;
+        }
+        .logo__container {
+        justify-content: center;
+        }
+    
+        .billboard {
+            width: 425px;
+            height: 239px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .motto {
+            margin-top: 0;
+        }
+    
+        .story_img {
+    width: 425px;
+    height: 283px;
+        }
+    
+        .storybox {
+            margin-top: 30px;
+            display: block;
+            align-items: center;
+            margin-left: auto;
+        }
+        .storytext {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 425px;
+    height: auto;
+        }
+    
+        .story__header > span {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        }
+    
+        .blogheader {
+            display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        }
+    
+        .cardbox {
+            display: block;
+            padding-top: 30px;
+            margin-top: 0px;
+        }
+    
+        .card {
+            margin: auto;
+        }
+    
+        .card_text {
+                height: auto;
+            }
+
+            .contact_box {
+                margin-top:900px;
+            }
+            
+    }
