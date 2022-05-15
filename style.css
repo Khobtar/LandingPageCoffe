@@ -362,6 +362,7 @@ padding-top: 29px;
             width: 425px;
             display: flex;
         list-style: none;
+        margin-top: 10px;
         }
         .navbar__list li {
         margin-left: 5px;
@@ -396,7 +397,7 @@ padding-top: 29px;
         }
         .storytext {
     margin-top: 40px;
-    margin-left: 0;
+    padding-left: 20px;
     width: 425px;
     height: auto;
         }
